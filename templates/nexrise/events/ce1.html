@@ -1,0 +1,326 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+{% include "nexrise/head.html" %}
+
+
+<style>
+
+.container {border:0;}
+
+
+.block2>h2 {border:3px solid orange; max-width:550px; margin:auto; text-align:center;     margin-top: 20px;}
+.block2>.col-sm-3 {font-weight:500;font-family: 'Source Sans Pro',sans-serif;}
+
+
+.block3>.col-sm-7 {background-color:black;color:white;height:500px;font-weight:500;font-family: 'Source Sans Pro',sans-serif;}
+@media only screen and (max-width:768px){
+.block3>.col-sm-7 {height:auto;}
+}
+.block3>.col-sm-5 {height:500px;padding:0;}
+.block3>.col-sm-5>img {height:500px;}
+
+.block4>h2 {border:3px solid orange; max-width:750px; margin:auto; text-align:center;    margin-top: 20px;}
+.block4>.col-sm-3 {font-weight:500; font-family: 'Source Sans Pro',sans-serif;}
+
+.block5 {font-weight:500; overflow:hidden;}
+.block5-1,.block5-2,.block5-3,.block5-4 {width:50%; float:left; min-height:450px; box-sizing: border-box; border:10px solid white; padding:25px;font-weight:500;font-family: 'Source Sans Pro',sans-serif;}
+.block5-1 {background-color:black;color:white;}
+.block5-2 {background-color:blue;color:white;}
+.block5-3 {background-color:orange;}
+.block5-4 {background-color:green;color:white;}
+@media only screen and (max-width:768px){
+.block5-1,.block5-2,.block5-3,.block5-4 {width:100%;}
+}
+
+.speakers {padding:20px;font-family: 'Source Sans Pro',sans-serif;}
+
+
+.block1 {background-image:url("{% static 'nexrise/img/imgswitzerland.jpg' %}"); background-attachment: fixed; background-position: center;background-repeat: no-repeat; background-size: cover; padding-bottom:20px;}
+.block1>.space {height:550px;}
+.contain1 {width:calc(100% - 40px); background-color:black; margin:auto; box-sizing:border-box; border:10px solid;}
+.heading {color:blue; border:3px solid orange; text-align:center; max-width:500px; margin:auto; margin-top:40px;}
+.contain1>.col-sm-7 {color:white;}
+.contain1>.col-sm-5 {}
+.contain1>.col-sm-5>img {max-height:500px; margin-right:50px;}
+
+.title {box-sizing:border-box; border:15px solid white;}
+.center {text-align:center; border:3px solid orange; max-width:500px; margin:auto;}
+.block1b>.col-sm-5>img {width:100%; min-height:350px;}
+.block1b {background-color:black; color:white;}
+
+
+</style>
+</head>
+
+<body>
+
+{% include "nexrise/header.html" %}
+{% include "nexrise/menu.html" %}
+
+
+<div class="block1">
+<div class="space"></div>
+
+<div class="container contain1">
+<div class="heading">
+<h1>Project Management and Leadership Expo 2018</h1>
+<h3>July 20, 2018</h3>
+<h2>Halle 622</h2>
+<h3>Zurich, Switzerland</h3>
+</div>
+
+<div class="col-sm-7">
+
+<h2>WELCOME TO THE PROJECT MANAGEMENT AND LEADERSHIP EXPO 2018!</h2>
+
+<p>This premier event is the biggest gathering of change managers, which will provide an unprecedented opportunity for professional development and interactive learning. Attending this conference will help to discover creative solutions, stay current on innovative methods and tools and network with experienced colleagues and solution providers.</p>
+
+<p>Discovering the trends, best practices and case studies will allow to get a better picture of where the industry is heading more effectively and take our programs to the next level for 2018 and beyond.</p>
+
+<p>Attending PML Expo 2018 will allow to earn considerable learning credits toward obtaining/renewing the Certified Change Management Professional credential. This credential will not only help validate knowledge, experience and expertise around change management, but it will also be valuable to the company by adding credibility to the group and roles in this space.</p>
+
+</div>
+
+<div class="col-sm-5">
+<img src="{% static 'nexrise/img/swiz2018/Swiss 4.jpg' %}">
+</div>
+</div>
+</div>
+
+
+<div class="container title">
+
+<h2 class="center">
+PROJECT MANAGEMENT INSTITUTE<br>
+SWITZERLAND CHAPTER</h2>
+
+<h3 class="about">ABOUT THE CHAPTER</h3>
+<p>PMI Switzerland is a project management membership organization chartered with PMI in 2001 and steadily growing ever since.</p>
+<p>PMI Switzerland is not-for-profit and volunteer-driven. We organize regular events throughout Switzerland, actively promoting project management and allowing our members to engage with each other both professionally and casually.</p>
+<p>We welcome individuals from all backgrounds industries and celebrate the sharing of knowledge and experience to tackle common challenges and achieve project objectives. Our members build their professional network, gain knowledge, and have fun at the same time.</p>
+
+<div class="container vision">
+<div class="col-sm-3">
+<h4>CHAPTER VISION</h4>
+<p>PMI Switzerland Chapter is recognized as the leading association in Switzerland for advancing excellence and professionalism in project management.</p>
+</div>
+<div class="col-sm-3">
+<h4>CHAPTER MISSION</h4>
+<ul style="">
+<li>Foster project management practitioners in their career by providing them with PMI and localized services and knowledge.</li>
+<li>Promote Project Management to contribute to organizational success and business results.</li>
+<li>Foster a community of project management practitioners and organizations in Switzerland to promote professional contacts, share experience and knowledge.</li>
+<li>Develop the chapter toward organizational maturity.</li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h4>DEPARTMENT MISSIONS</h4>
+<ul>
+<li>Communications</li>
+<li>Events</li>
+<li>Finance</li>
+<li>Members</li>
+<li>Operations</li>
+<li>Special Projects</li>
+<li>Volunteers</li>
+<li>Sponsoring</li>
+<li>PMI Educational Foundation</li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h4>CONTACT</h4>
+PMI Switzerland Chapter
+BOLLWERK 21, 3011.BERN
+Tel.: +41 (0)31 311 53 08
+Fax: +41 (0)31 311 53 01
+www.pmi-switzerland.ch
+</div>
+</div>
+</div>
+
+
+
+
+<div class="container block1b">
+<div class="col-sm-5 xs-hidden">
+<img src="{% static 'nexrise/img/swiz2018/Swiss 4.jpg' %}">
+</div>
+
+<div class="col-sm-7">
+
+<h2>EXCLUSIVE FROM PROJECT MANAGEMENT AND LEADERSHIP EXPO 2018!</h2>
+
+<p>Be a part of "Advancement on Your Next Project" in Switzerland during Project Management and Leadership Expo 2018! 
+Whether you are a seasoned expert or new to industry, the Project Management and Leadership Expo 2018 (PML) is designed for your professional growth and goals - choose your sessions, connect with fellow practitioners and create an experience to enhance your expertise.</p>
+
+<p>From three premier keynote speakers, 1,000 attendees and sessions led by industry influencers, PML's 2018 Expo is aimed to share the latest business solutions, explore innovative best practices and trends, and provide you with ample networking opportunities.</p>
+
+<p>We look forward to seeing you on July 20 for a one-day Expo!</p>
+</div>
+</div>
+
+
+
+<div class="container block2">
+<h2>WHY SHOULD I ATTEND?</h2>
+
+<p>This is the opportunity to get focused and leverage your valuable time to be with other like-minded colleagues. To capture and hear about "what is happening," solve some of the challenges you are encountering and learn about new ways to approach the organizational change that we encounter. By attending, you will:</p>
+
+<p class="col-sm-3"><b>Awareness:</b> Gain insight from premier keynote speakers and industry influencers into what is happening now in the world of change management, including new and innovative techniques being used by your colleagues, peers and thought leaders.</p>
+
+<p class="col-sm-3"><b>Networking:</b> Network with colleagues from firms leading change, corporations experiencing change and individuals who are excited about guiding companies through change.</p>
+
+<p class="col-sm-3"><b>Implementation:</b>Practice and experiment with new approaches and skill sets, enabling you to bring them "back to the office" for application</p>
+
+<p class="col-sm-3"><b>Encounter:</b>Meet with thought leaders and experts in change management through ACMP Academy and new VIP sessions
+Certification:Earn up to 8 PML hours to geta certificate</p>
+</div>
+
+
+
+<div class="container block3">
+<div class="col-sm-5"><img src="{% static 'nexrise/img/swiz2018/Swiss 5.jpg' %}"></div>
+
+<div class="col-sm-7">
+<h2>REASONS TO ATTEND</h2>
+
+<p>Attending the Project Management and Leadership Expo 2018 is an invaluable investment to your career, and we look forward to seeing you on July19 – 20 in Switzerland.</p>
+
+<p>We want you to be there in Switzerland with other Leaders! Sometimes there is a need to convince your leadership reasons why you should attend, and below are some key areas of opportunity to help you prepare for the request:</p>
+
+<p>Timing is everything: The cost is much lower earlier than later so getting youask in early is key. Consider discussing in your one on one meetings or over lunch.</p>
+
+<p>Remember the Business Case: This conference will not only benefit you as a professional, but your organization will benefit as well with all the information you will be obtaining. Don’t forget to share this information. Within PML letting people know, “what’s in it for them” is important! Make an outline with bullet points or justifications on why it will benefit you and your organization. Show that you will make the most of it, and why networking and attending the workshops and sessions are important. Ask yourself what your short-term and long-term goals are with your organization’s objectives, and pair them with sessions that will contribute the most to the goals. Explain how it will make the company more profitable, functional and flexible.</p>
+</div>
+
+
+</div>
+
+
+<div class="container block4">
+<h2>WHO SHOULD ATTEND?</h2>
+<p>If you answer “yes” to any of the following, then we will see you at PMLExpo 2018!</p>
+<ul>
+<li>Do you lead projects in your organization that could have people working differently?</li>
+<li>Is your organization impacted by changes within marketplace competition?</li>
+<li>Do you or your organization plan on acquiring or merging with another company?</li>
+<li>Are you undertaking a major system implementation?</li>
+<li>Are you executing strategic plans within or outside your company?</li>
+<li>Do you consult and need to be ahead of the trends and technologies in change management?</li>
+<li>Has your business been challenged by recent, implemented changes?</li>
+</ul>
+</div>
+
+
+<div class="block5">
+
+	<div class="block5-1">
+<h2>TOPICS:</h2>
+<ul>
+<li>Change Management Maturity: Measuring and Raising Your Organizational Capability</li>
+<li>Transformational Leadership, the Only Way Forward: Using Agile and Situational</li>
+<li>Leadership to Build Confidence, Loyalty, and Competitive Advantage in Difficult Times</li>
+<li>Attachment Style, Desire, and Organizational Change</li>
+<li>Agile Change Management: One Small Step for Agile Projects, One Giant Leap for Enterprise Agility</li>
+<li>Project Management is Everywhere!</li>
+<li>The Impact of Emotional Intelligence on Careers</li>
+<li>Blending Agile and Waterfall</li>
+<li>The Role of Project Management in an Agile Environment</li>
+<li>Effective Application of Change Management Increases the Success Rate as High as 96%</li>
+<li>Change Management Provides a Competitive Advantage, Allowing Organizations to Quickly and Effectively Implement Change to Market Needs</li>
+<li>Portfolio Management</li>
+<li>Risk Management</li>
+<li>Governance, Resource Optimization and Performance Measurement</li>
+<li>Collaborate with Generation</li>
+<li>Importance of the Managerial Process within the Organization of Project Management</li>
+</ul>
+	</div>
+	
+	
+	<div class="block5-2">
+<h2>WHOM TO ATTEND?</h2>
+<ul>
+<li>Team Leaders</li>
+<li>Project Coordinators</li>
+<li>Project Managers</li>
+<li>Project Analysts</li>
+<li>Portfolio Directors</li>
+<li>Project Directors</li>
+<li>Strategic Managers</li>
+<li>Software Programming Managers</li>
+<li>R&D Managers</li>
+<li>Business Analysts </li>
+<li>BA Team Leads</li>
+<li>Senior Business Analysts</li>
+<li>Business System Consultants</li>
+<li>Business Support Analysts</li>
+<li>Systems Analysts </li>
+<li>Business Technologists </li>
+<li>Technical Analysts </li>
+<li>Requirements Planners</li>
+<li>Requirements Analysts</li>
+<li>Process Managers </li>
+<li>Product Design & Development Professionals </li>
+<li>Business Process Engineers </li>
+<li>Education and Training Professionals </li>
+<li>IS/IT Managers </li>
+<li>IT Analysts</li>
+</ul>
+	</div>
+	
+	
+	
+	<div class="block5-3">
+<h2>BENEFITS OF TRAINING AND DEVELOPMENT:</h2>
+
+<p>Productivity: Employees who received training are 17% more productive than those who did not receive training. Increase: efficiency, accurate results and profitability.</p>
+
+<p>Strategy: Heighten creative and analytical skills to generate better solutions and decisions. Build: Leadership and Recognition.</p>
+
+<p>Industry Trends: Up-to-Date on the latest trendsand align then to your company goals and objectives. Adopt: New Technologies and Methods.</p>
+
+<p>Collaboration: Enhance agility and move up, down and across the organization. Up: Satisfaction, motivation and moral among employees. Down: Employee Turnover.</p>
+	</div>
+	
+	
+	<div class="block5-4">
+<h2>SPEAKERS:</h2>
+<p>MS. TIFFANY DAHLBERG
+PMP, MAOM – USA</p>
+
+<p>MR. LUIS PINTO
+Global Operations Partner, Learn Capital</p>
+
+<p>DR. ROBERT GOODMAN
+Executive Director, New Jersey Center for Teaching and Learning</p>
+
+<p>MR. ALEX JULIAN
+Project Director – BRAZIL</p>
+
+<p>MR. RONNIE MASCHK
+Project Innovation Director – BRAZIL</p>
+
+<p>More speakers from Switzerland to be announced soon.</p>
+	</div>
+	
+	
+</div>
+
+
+
+{% include "nexrise/footer.html" %}
+
+
+
+<script>
+document.getElementById("event").classList.add("active");
+</script>
+
+
+
+</body>
+</html>
